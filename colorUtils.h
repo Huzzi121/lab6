@@ -21,7 +21,7 @@ int max(int a, int b, int c);
 int min(int a, int b, int c);
 
 /**
- * TODO: add documentation here
+ * TODO: add documentation here=returns the minimum value among the three given values
  */
 int toGrayScale(int *r, int *g, int *b, Mode mode);
 
