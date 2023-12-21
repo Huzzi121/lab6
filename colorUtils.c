@@ -11,8 +11,12 @@ int min(int a, int b, int c) {
   return (a < b) ? (a < c ? a : c) : (b < c ? b : c);
 }
 
-int toGrayScale(int *r, int *g, int *b, Mode mode) {
+ErrorCode toGrayScale(int *r, int *g, int *b, Mode mode) {
   //TODO: implement
+  if(r<0 || g<0 || b<0 || r>255 || g>255 || b>255)
+  {
+    return INVALID_INPUT;
+  }
 }
 
 int toSepia(int *r, int *g, int *b) {
