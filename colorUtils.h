@@ -28,7 +28,8 @@ int min(int a, int b, int c);
 /**
  * TODO: add documentation here=returns the minimum value among the three given values
  */
-int toGrayScale(int *r, int *g, int *b, Mode mode);
+ErrorCode toGrayScale(int *r, int *g, int *b, Mode mode);//there was a error here with int so i added errorcode which was taken from the enum above.
+
 
 /**
  * TODO: add documentation here
