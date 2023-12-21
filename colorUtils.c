@@ -85,3 +85,4 @@ ErrorCode toSepia(int *r, int *g, int *b) {
 
   return NO_ERROR;
 }
+//lab 6 completed mere khayal say.
