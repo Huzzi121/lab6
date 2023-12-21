@@ -34,4 +34,5 @@ ErrorCode toGrayScale(int *r, int *g, int *b, Mode mode);//there was a error her
 /**
  * TODO: add documentation here
  */
-int toSepia(int *r, int *g, int *b);
+ErrorCode toSepia(int *r, int *g, int *b);//idhar bhi error aa raha tha
+

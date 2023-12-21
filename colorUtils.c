@@ -34,5 +34,13 @@ ErrorCode toGrayScale(int *r, int *g, int *b, Mode mode)//int per error aa raha 
 
 ErrorCode toSepia(int *r, int *g, int *b) {
   //TODO: implement
-  if()
+  if(*r<0 || *g<0 || *b<0 || *r>255 || *g>255 || *b>255)
+  {
+    return INVALID_INPUT;
+  }
+
+  int tr=(int)(0.393**r+0.769**g+0.189**b);//tr = to red for sepia
+  int tg=(int)(0.349**r+0.686**g+0.168**b);//tg = to green for sepia
+  int tb=(int)(0.272**r+0.534**g+0.131**b);//tb = to blue for sepia
+  
 }
