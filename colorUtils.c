@@ -56,5 +56,18 @@ ErrorCode toSepia(int *r, int *g, int *b) {
   {
     *r=tr;
   }
-  
+
+  if(tg<0)
+  {
+    *g=0;
+  }
+  else if(tg>255)
+  {
+    *g=255;
+  }
+  else
+  {
+    *g=tg;
+  }
+
 }
