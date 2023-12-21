@@ -70,4 +70,18 @@ ErrorCode toSepia(int *r, int *g, int *b) {
     *g=tg;
   }
 
+  if(tb<0)
+  {
+    *b=0;
+  }
+  else if(tb>255)
+  {
+    *b=255;
+  }
+  else
+  {
+    *b=tb;
+  }
+
+  return NO_ERROR;
 }
