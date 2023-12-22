@@ -32,7 +32,7 @@ ErrorCode toGrayScale(int *r, int *g, int *b, Mode mode);//there was a error her
 
 
 /**
- * TODO: add documentation here
+ * TODO: add documentation here converts to grayscale depending ont he mode selected e.g  LUMINOSITY and many more.
  */
 ErrorCode toSepia(int *r, int *g, int *b);//idhar bhi error aa raha tha
 
